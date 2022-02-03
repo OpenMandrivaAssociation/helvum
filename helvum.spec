@@ -8,7 +8,9 @@ License:        GPL3.0
 URL:            https://gitlab.freedesktop.org/pipewire/helvum
 Source:         https://gitlab.freedesktop.org/pipewire/helvum/-/archive/%{version}/%{name}-%{version}.tar.bz2
 
+BuildRequires: appstream-util
 BuildRequires: cargo
+BuildRequires: desktop-file-utils
 BuildRequires: meson
 BuildRequires: pkgconfig(gtk4)
 BuildRequires: pkgconfig(libpipewire-0.3)
