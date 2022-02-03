@@ -16,6 +16,7 @@ BuildRequires: pkgconfig(gtk4)
 BuildRequires: pkgconfig(libpipewire-0.3)
   
 Requires: gtk4.0
+Requires: pipewire
 
 %description
 Helvum is a GTK-based, writen in Rust patchbay for PipeWire, inspired by the JACK tool Catia.
