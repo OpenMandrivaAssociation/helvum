@@ -35,3 +35,4 @@ Helvum is a GTK-based, writen in Rust patchbay for PipeWire, inspired by the JAC
 %{_bindir}/helvum
 %{_datadir}/applications/org.pipewire.Helvum.desktop
 %{_datadir}/icons/hicolor/
+%{_datadir}/metainfo/org.pipewire.Helvum.metainfo.xml
