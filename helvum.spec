@@ -25,7 +25,7 @@ Helvum is a GTK-based, writen in Rust patchbay for PipeWire, inspired by the JAC
 
 %build
 # Possible also to call directly cargo build/install without meson.
-%meson
+%meson --buildtype=release
 %meson_build
 
 %install
