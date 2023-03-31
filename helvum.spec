@@ -1,7 +1,7 @@
 %define _empty_manifest_terminate_build 0
 Name:           helvum
 Version:        0.3.4
-Release:        1
+Release:        2
 Group:          Sound/Utilities
 Summary:        A GTK patchbay for PipeWire
 License:        GPL3.0
