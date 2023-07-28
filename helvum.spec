@@ -14,6 +14,7 @@ BuildRequires: desktop-file-utils
 BuildRequires: meson
 BuildRequires: pkgconfig(gtk4)
 BuildRequires: pkgconfig(libpipewire-0.3)
+BuildRequires: clang-devel
   
 Requires: gtk4.0
 Requires: pipewire
