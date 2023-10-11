@@ -1,6 +1,6 @@
 %define _empty_manifest_terminate_build 0
 Name:           helvum
-Version:        0.4.1
+Version:        0.5.1
 Release:        1
 Group:          Sound/Utilities
 Summary:        A GTK patchbay for PipeWire
