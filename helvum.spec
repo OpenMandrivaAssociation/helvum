@@ -1,12 +1,15 @@
 %define _empty_manifest_terminate_build 0
 Name:           helvum
-Version:        0.5.1
+Version:        0.6.2
 Release:        1
 Group:          Sound/Utilities
 Summary:        A GTK patchbay for PipeWire
 License:        GPL3.0
 URL:            https://gitlab.freedesktop.org/pipewire/helvum
-Source:         https://gitlab.freedesktop.org/pipewire/helvum/-/archive/%{version}/%{name}-%{version}.tar.bz2
+# Replace source archive with tarball due to the need to vendor rust crates. 
+# Standard source archive doesn't have a vendor, so we choose tarball to avoid manual vendoring.
+Source0:        https://gitlab.freedesktop.org/-/project/8123/uploads/720b9e2789c0cc37aae18bd91c9fa153/helvum-%{version}.tar.xz
+#Source:         https://gitlab.freedesktop.org/pipewire/helvum/-/archive/%{version}/%{name}-%{version}.tar.bz2
 
 BuildRequires: appstream-util
 BuildRequires: cargo
